@@ -1,0 +1,5 @@
+train: C:/Users/CarinPillay/OneDrive - Meridian Group/image-recognition-starter/image-recognition-starter/dataset_clean/images/train
+val: C:/Users/CarinPillay/OneDrive - Meridian Group/image-recognition-starter/image-recognition-starter/dataset_clean/images/val
+
+nc: 1
+names: ['Clipstrip']
