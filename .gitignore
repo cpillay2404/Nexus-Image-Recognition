@@ -1,0 +1,49 @@
+# -----------------------------
+# 🧠 NEXUS VISION DASHBOARD GITIGNORE
+# -----------------------------
+
+# Environment / Python cache
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# Model weights and checkpoints
+*.pt
+*.onnx
+*.engine
+*.tflite
+*.h5
+
+# Training output folders
+runs/
+logs/
+outputs/
+
+# Datasets and temporary images
+dataset_clean/
+datasets/
+tmp/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.txt
+
+# Streamlit / cache files
+.streamlit/
+.cache/
+
+# System / OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# OneDrive sync conflict files
+~$*
+*.tmp
